@@ -34,3 +34,10 @@ Nota: Las demás carpetas quedan en src y no entran en la carpeta v1, ya que al 
   --app.js
 ```
 
+## Nombre Recursos en Plural
+
+Podríamos nombrar el punto final de creación /api/v1/workout porque nos gustaría agregar un entrenamiento, pero esto puede dar lugar a malentendidos.
+
+* La API es utilizada por otros humanos y debe ser precisa, Esto también se aplica a los nombres de los recursos.
+* Hay que imaginar un recurso como una caja. en este ejemplo, la caja es una colección que almacena diferentes entrenamientos.
+* Nombrar sus recursos en plural tiene la gran ventaja de que es muy claro para otros humanos, que esta es una colección que consta de diferentes entrenamientos.
